@@ -21,16 +21,23 @@ def run_circle():
         character.draw_now(x,y)
         delay(0.01)
         
-    pass
 
 def run_rectangle():
     print('RECTANGLE')
+
+    for x in range(50,750+1,10):
+        clear_canvas_now()
+        grass.draw_now(400,30)
+        character.draw_now(x,90)
+        delay(0.01)
+        
+    
     pass
     
 
 while True:
-    run_circle()
     run_rectangle()
+    #run_circle() #testreadtime을 줄여야 한다.
     break
 
 close_canvas()
