@@ -43,6 +43,5 @@ while True:
     run_circle()
     run_rectangle()
     #testreadtime을 줄여야 한다.
-    break
 
 close_canvas()
