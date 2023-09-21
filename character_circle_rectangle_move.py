@@ -45,3 +45,4 @@ while True:
     #testreadtime을 줄여야 한다.
 
 close_canvas()
+
